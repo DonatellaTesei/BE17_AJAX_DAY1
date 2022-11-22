@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form id="form">
+        <input type="text" id="fname" placeholder="name">
+        <input type="text" id="lname" placeholder="surname">
+        <input type="email" id="email" placeholder="email">
+        <input type="submit" id="submit">
+    </form>
+    <br>
+    <input type="text" id="search" placeholder="Search...">
+    <div id="content">
+
+    </div>
+    <script>
+        document.getElementById("form").addEventListener("submit", loadDoc);
+
+        function loadDoc(e) {
+            e.preventDefault();
+            let fname = document.getElementById("fname").value;
+            let lname = document.getElementById("lname").value;
+            let email = document.getElementById("email").value;
+            let params = `fname=${fname}&lname=${lname}&email=${email}`; // fname=john&lname=doe
+
+            let xhttp = new XMLHttpRequest();
+
+            xhttp.open("POST", "create.php"); //(method, URL, async)
+            xhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+            xhttp.onload = function() {
+                if (this.status == 200) {
+                    console.log(this.responseText);
+                    read();
+                }
+            };
+            xhttp.send(params);
+        }
+
+        function read() {
+            let xhttp = new XMLHttpRequest();
+
+            xhttp.open("GET", "read.php"); //(method, URL, async)
+            xhttp.onload = function() {
+                if (this.status == 200) {
+                    document.getElementById("content").innerHTML = this.responseText;
+                }
+            };
+            xhttp.send();
+        }
+        read();
+
+        function search() {
+            let xhttp = new XMLHttpRequest();
+            let searchVal = document.getElementById("search").value;
+            xhttp.open("GET", "search.php?search=" + searchVal); //(method, URL, async)
+            xhttp.onload = function() {
+                if (this.status == 200) {
+                    document.getElementById("content").innerHTML = this.responseText;
+                }
+            };
+            xhttp.send();
+        }
+
+        document.getElementById("search").addEventListener("input", search);
+    </script>
+</body>
+
+</html>

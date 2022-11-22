@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="content"></div>
+
+    <script>
+        function loadDoc() {
+            let xhttp = new XMLHttpRequest();
+            xhttp.onload = function() {
+                if (this.status == 200) {
+                    document.getElementById("content").innerHTML = this.responseXML;
+                    console.log(this.responseXML.getElementsByTagName("school")[0].getElementsByTagName("student")[2].getElementsByTagName("name")[0].childNodes[0].nodeValue)
+                    console.log(this.responseXML.getElementsByTagName("school")[0].getElementsByTagName("student")[2].getElementsByTagName("name")[0].innerHTML)
+                }
+            };
+            xhttp.open("GET", "data.xml"); //(method, URL, async)
+            xhttp.send();
+        }
+
+        loadDoc();
+    </script>
+</body>
+
+</html>

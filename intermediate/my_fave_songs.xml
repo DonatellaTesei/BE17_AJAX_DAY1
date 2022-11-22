@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<playlist>
+    <song id="1">
+        <title>Hasta la Raíz</title>
+        <artist>Natalia Lafourcade</artist>
+        <country>Mexico</country>
+        <genre>pop</genre>
+        <year>2012</year>
+        <image>https://m.media-amazon.com/images/I/71O5qY00AfL._AC_SL1500_.jpg</image>
+    </song>
+
+    <song id="2">
+        <title>Anti-hero</title>
+        <artist>Taylor Swift</artist>
+        <country>USA</country>
+        <genre>pop</genre>
+        <year>2022</year>
+        <image>https://upload.wikimedia.org/wikipedia/en/b/b9/Taylor_Swift_-_Anti-Hero.png</image>
+    </song>
+
+    <song id="3">
+        <title>Bohemian Rapsody</title>
+        <artist>Queen</artist>
+        <country>UK</country>
+        <genre>rock</genre>
+        <year>1980</year>
+        <image>https://www.storiedicanzoni.it/wp-content/uploads/2018/03/queen-678x381.jpg</image>
+    </song>
+
+    <song id="4">
+        <title>The Loneliest</title>
+        <artist>Maneskin</artist>
+        <country>Italy</country>
+        <genre>rock</genre>
+        <year>2022</year>
+        <image>https://pub.agronline.it/uploads/media/32291/maneskin-copertina-loneliest-video-band-romana.jpg</image>
+    </song>
+
+    <song id="5">
+        <title>Left and right</title>
+        <artist>Charlie Put, Jung Kook</artist>
+        <country>USA</country>
+        <genre>pop</genre>
+        <year>2022</year>
+        <image>https://upload.wikimedia.org/wikipedia/en/8/8a/Left_and_Right_-_Charlie_Puth.png</image>
+    </song>
+
+    <song id="6">
+        <title>As it was</title>
+        <artist>Harry Styles</artist>
+        <country>UK</country>
+        <genre>pop</genre>
+        <year>2022</year>
+        <image>https://media.pitchfork.com/photos/624634c5b4e0bbb84528b643/16:9/w_1280,c_limit/Harry%20Styles.png</image>
+    </song>
+
+    <song id="7">
+        <title>Lasciarsi un giorno a Roma</title>
+        <artist>Niccolò Fabi</artist>
+        <country>Italy</country>
+        <genre>pop</genre>
+        <year>2005</year>
+        <image>https://www.universalmusic.it/dbcommon/file/news/img1/11837.jpg</image>
+    </song>
+
+    <song id="8">
+        <title>Fai rumore</title>
+        <artist>Diodato</artist>
+        <country>Italy</country>
+        <genre>pop</genre>
+        <year>2020</year>
+        <image>https://cdns-images.dzcdn.net/images/cover/28860cbd45c068384d3a5add3bf3b65d/264x264.jpg</image>
+    </song>
+
+    <song id="9">
+        <title>There is a light that never goes out</title>
+        <artist>The Smiths</artist>
+        <country>UK</country>
+        <genre>rock</genre>
+        <year>1979</year>
+        <image>https://i.ytimg.com/vi/3r-qDvD3F3c/maxresdefault.jpg</image>
+    </song>
+
+    <song id="10">
+        <title>Queen of New Orleans</title>
+        <artist>Bon Jovi</artist>
+        <country>USA</country>
+        <genre>rock</genre>
+        <year>1999</year>
+        <image>https://upload.wikimedia.org/wikipedia/en/7/74/Queen_of_New_Orleans.jpg</image>
+    </song>
+
+    <song id="11">
+        <title>Iris</title>
+        <artist>Goo Goo Dolls</artist>
+        <country>USA</country>
+        <genre>rock</genre>
+        <year>1998</year>
+        <image>https://upload.wikimedia.org/wikipedia/en/3/3f/GGD_Iris.jpg</image>
+    </song>
+
+    <song id="12">
+        <title>She's a rainbow</title>
+        <artist>Rolling Stones</artist>
+        <country>UK</country>
+        <genre>rock</genre>
+        <year>1975</year>
+        <image>https://upload.wikimedia.org/wikipedia/en/6/62/Shesarainbow.jpg</image>
+    </song>
+
+    <song id="13">
+        <title>Sunsetz</title>
+        <artist>Cigarettes After Sex</artist>
+        <country>USA</country>
+        <genre>rock</genre>
+        <year>2017</year>
+        <image>https://i.ytimg.com/vi/ThY6_-0ntqs/maxresdefault.jpg</image>
+    </song>
+
+    <song id="14">
+        <title>I won't back down</title>
+        <artist>Tom Petty</artist>
+        <country>USA</country>
+        <genre>rock</genre>
+        <year>1982</year>
+        <image>https://i.discogs.com/vI_V587iJZaECLdZlbdCHAtX5jPPTmWDZ1oKfNhLeA8/rs:fit/g:sm/q:40/h:300/w:300/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI5OTUz/NzUtMTU1NTE3MDEw/MC0xMjM0LmpwZWc.jpeg</image>
+    </song>
+
+    <song id="15">
+        <title>Edge of Desire</title>
+        <artist>John Mayer</artist>
+        <country>USA</country>
+        <genre>rock</genre>
+        <year>2015</year>
+        <image>https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1556306663-51aJqTQ9j2L.jpg</image>
+    </song>
+
+    <song id="16">
+        <title>Heartbreak Warfare</title>
+        <artist>John Mayer</artist>
+        <country>USA</country>
+        <genre>rock</genre>
+        <year>2014</year>
+        <image>https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1556306663-51aJqTQ9j2L.jpg</image>
+    </song>
+
+    <song id="17">
+        <title>Africa</title>
+        <artist>Toto</artist>
+        <country>USA</country>
+        <genre>pop</genre>
+        <year>1983</year>
+        <image>https://musicfestnews.com/wp-content/uploads/2019/01/toto.jpg</image>
+    </song>
+
+    <song id="18">
+        <title>Tougher than the rest</title>
+        <artist>Bruce Springsteen</artist>
+        <country>USA</country>
+        <genre>rock</genre>
+        <year>1981</year>
+        <image>https://upload.wikimedia.org/wikipedia/en/e/e6/Tougher.jpg</image>
+    </song>
+
+    <song id="19">
+        <title>Mr. Brightside</title>
+        <artist>The Killers</artist>
+        <country>USA</country>
+        <genre>rock</genre>
+        <year>2015</year>
+        <image>https://i1.sndcdn.com/artworks-000089923043-t1nki9-t500x500.jpg</image>
+    </song>
+
+    <song id="20">
+        <title>Boa Sorte</title>
+        <artist>Vanessa De Mata</artist>
+        <country>Brasil</country>
+        <genre>pop</genre>
+        <year>2016</year>
+        <image>https://media.hitparade.ch/cover/800/vanessa_da_mata_ben_harper-boa_sorte_(good_luck)_s.jpg</image>
+    </song>
+</playlist>

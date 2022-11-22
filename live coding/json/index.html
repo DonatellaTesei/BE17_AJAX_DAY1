@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="content"></div>
+
+    <script>
+        function loadDoc() {
+            let xhttp = new XMLHttpRequest();
+            xhttp.onload = function() {
+                if (this.status == 200) {
+                    document.getElementById("content").innerHTML = this.responseText;
+
+                    let result = JSON.parse(this.responseText);
+                    console.log(result[0].name)
+                }
+            };
+            xhttp.open("GET", "data.json"); //(method, URL, async)
+            xhttp.send();
+        }
+
+        loadDoc();
+    </script>
+</body>
+
+</html>
